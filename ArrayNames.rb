@@ -9,7 +9,7 @@ def array()
          (0..array.size()/2).each do |n|
          	pairs.push([array[n - 10], array[n]])		
   		 end 
-  		 pairs.pop
+  		 #pairs.pop
   		 print pairs  
          
          array
