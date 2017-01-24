@@ -1,4 +1,5 @@
-def mined_minds_minedminds_array()
+def mined_minds_minedminds_array
+   my_array = []
     num = 0 
        100.times do
            num += 1
@@ -14,7 +15,7 @@ def mined_minds_minedminds_array()
        
         else 
            mined_minds_minedminds_array.push(num)          
-        end
-       end       
-      mined_minds_minedminds_array
-    end     
+        end 
+      end      
+      my_array
+end     
