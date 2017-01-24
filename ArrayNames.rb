@@ -1,16 +1,15 @@
-def array()
-         array = ["Andy", "Bobby", "Cathy", "Dean", "Ethan", "Frank", "Gus", "Henry", "India", "James", "Kurt", 
-       	         "Lance", "Mike", "Nathan", "Oscar", "Paul", "Quincy", "Robert", "Seth", "Tommy",] 
+def create_array(students)
+         
          pairs = Array.new()
 
-         array = array.shuffle()
-
+         students = students.shuffle()
+          
         
-         (0..array.size()/2).each do |n|
-         	pairs.push([array[n - 10], array[n]])		
+         (0..(students.size()-1)/2).each do |n|
+         	pairs.push([students[n - 10], students[n]])   
   		 end 
-  		 #pairs.pop
-  		 print pairs  
-         
-         array
-     end
+  	
+  		  print pairs  
+       
+        return pairs  
+end
