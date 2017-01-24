@@ -37,7 +37,7 @@ class TestArrayNames < Minitest::Test
      end
      
      def test_function_with_5_student_returns_2_pair    
-        students_to_pass_as_parameter = ["Paul", "Quincy", "Robert", "Seth", "Tommy",]
+        students_to_pass_as_parameter = ["Paul", "Quincy", "Robert", "Seth", "Tommy"]
         results = create_array(students_to_pass_as_parameter)          
         assert_equal(3, results.size())    
      end
